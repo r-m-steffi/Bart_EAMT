@@ -136,10 +136,13 @@ Entity Preservation: Special handling for <entity> tags during training
 
 ## Evaluation Approach
 
-Standard Metrics: BLEU, COMET scores for overall translation quality
-Entity-Specific Metrics: Precision, recall, F1-score, and accuracy for named entity translation
-Mention Coverage: Analysis of how well models preserve entity mentions
-Cross-Model Comparison: Performance analysis across different architectures and language pairs
+**Standard Metrics:** BLEU, COMET scores for overall translation quality
+
+**Entity-Specific Metrics:** Precision, recall, F1-score, and accuracy for named entity translation
+
+**Mention Coverage:** Analysis of how well models preserve entity mentions
+
+**Cross-Model Comparison:** Performance analysis across different architectures
 
 ## Future Work
 **mBART-50 Improvements**
