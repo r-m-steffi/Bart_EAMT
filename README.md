@@ -17,6 +17,10 @@ This repository implements an Entity-Aware Machine Translation (EA-MT) system fo
 
 This project explores how injecting entity information into source text can improve translation quality. We fine-tune the `facebook/mbart-large-50-many-to-many-mmt` model using entity-tagged training data from SemEval 2025 Task 2.
 
+Name Of Participants:
+-  Shelly Tyagi
+-  Steffi Michael
+
 ##  Features
 
 -  Named Entity-aware translation
