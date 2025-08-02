@@ -5,6 +5,7 @@ This repository implements an Entity-Aware Machine Translation (EA-MT) system fo
 
 ## Table of Contents
 - [Overview](#overview)
+- [Problem Statement](#problem)
 - [Features](#features)
 - [Dataset](#dataset)
 - [Installation](#installation)
@@ -17,9 +18,19 @@ This repository implements an Entity-Aware Machine Translation (EA-MT) system fo
 
 This project explores how injecting entity information into source text can improve translation quality. We fine-tune the `facebook/mbart-large-50-many-to-many-mmt` model using entity-tagged training data from SemEval 2025 Task 2.
 
-Name Of Participants:
+
+Name Of Collaborators:
 -  Shelly Tyagi
 -  Steffi Michael
+
+
+## Problem Statement
+
+
+Problem Statement : The task is to develop machine translation systems that can accurately translate s named entities in the input sentence to the target language. Here, the source language is English and target language is Arabic.
+
+- Named entities are entities that are referred to by proper names, such as people, organizations, locations, dates, and more.
+- Named entities are often challenging even for human translators, as sometimes there are cultural or domain-specific references that are not easily translatable.
 
 ##  Features
 
