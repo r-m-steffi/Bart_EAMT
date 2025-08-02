@@ -18,7 +18,7 @@ This repository implements an Entity-Aware Machine Translation (EA-MT) system fo
 
 This project explores how injecting entity information into source text can improve translation quality across different neural machine translation architectures. We implement and compare two approaches:
 
-mBART-50: Multilingual denoising pre-trained transformer fine-tuned on English→French translation
+mBART-50: Multilingual denoising pre-trained transformer fine-tuned on English→German translation
 MarianMT: Opus-based neural machine translation model fine-tuned on English→German translation
 
 Both models are augmented with entity annotations to assess their capability in handling named entities during translation.
@@ -69,7 +69,7 @@ Advanced mention coverage analysis
 
 Base Model: facebook/mbart-large-50-many-to-many-mmt
 Architecture: Multilingual denoising autoencoder
-Language Pair: English (en_XX) → French (fr_FR)
+Language Pair: English (en_XX) → German (de_DE)
 Strengths: Robust multilingual representation, handles multiple language pairs
 
 **MarianMT**
