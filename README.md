@@ -37,7 +37,7 @@ This project explores how injecting entity information into source text can impr
 ```bash
 git clone https://github.com/r-m-steffi/Bart-EAMT.git
 cd Bart-EAMT
-pip install -r requirements.txt
+pip install -r requirements.txt```
 
 ## Training Configuration
 
