@@ -8,7 +8,6 @@ This repository implements an Entity-Aware Machine Translation (EA-MT) system fo
 - [Features](#features)
 - [Dataset](#dataset)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Training](#training)
 - [Evaluation](#evaluation)
 - [Results](#results)
