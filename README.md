@@ -129,7 +129,9 @@ Entity Preservation: Special handling for <entity> tags during training
 **| Model        | COMET Score | Entity Precision | Entity Recall | Entity F1 | Entity Coverage/accuracy |**
 
   | -------------|-------------|------------------|---------------|-----------|---------------------------|
+  
   | Base MarianMT| 86.73       | 1.00             | 0.1950        | 0.3264    |     19.29%                | 
+  
   | Fine-tuned   | 82.48       | 1.00             | 0.14          | 0.25      |       13.97%              |
 
 ## Evaluation Approach
