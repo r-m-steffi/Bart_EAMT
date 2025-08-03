@@ -54,7 +54,7 @@ Entity mention coverage analysis
 
 **mBART-50 Specific**
 Multilingual capabilities leveraging facebook/mbart-large-50-many-to-many-mmt
-BLEU and COMET evaluation with sacrebleu
+COMET evaluation
 Support for multiple target translations per source
 
 **MarianMT Specific**
@@ -103,7 +103,7 @@ Batch Size: 4
 Epochs: Up to 10
 Learning Rate: 1e-5
 Early Stopping: Patience 2
-Primary Metric: SacreBLEU
+Primary Metric: COMET
 Evaluation Strategy: Every epoch
 
 **MarianMT Configuration**
@@ -115,10 +115,10 @@ Entity Preservation: Special handling for <entity> tags during training
 
 ## Evaluation
 **mBart-50**
-| Model        | BLEU Score |
+| Model        | COMET Score |
 |--------------|------------|
-| Base mBART   | 19.90      |
-| Fine-tuned   | 16.51      |
+| Base mBART   | 0.8466      |
+| Fine-tuned   | 0.8493      |
 
 > Although the fine-tuned model currently underperforms, future improvements will focus on:
 > - Better entity preprocessing
@@ -136,7 +136,7 @@ Entity Preservation: Special handling for <entity> tags during training
 
 ## Evaluation Approach
 
-**Standard Metrics:** BLEU, COMET scores for overall translation quality
+**Standard Metrics:** COMET scores for overall translation quality
 
 **Entity-Specific Metrics:** Precision, recall, F1-score, and accuracy for named entity translation
 
