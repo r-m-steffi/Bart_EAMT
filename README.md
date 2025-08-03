@@ -126,6 +126,7 @@ Entity Preservation: Special handling for <entity> tags during training
 > - Using multiple translations per source sentence
 
 **MarianMT**
+
 | Model          | COMET Score | Entity Precision | Entity Recall | Entity F1 | Entity Coverage/accuracy |
 
 |----------------|-------------|------------------|---------------|-----------|--------------------------|
